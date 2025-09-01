@@ -1,0 +1,11 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      role: 'ACCOUNTADMIN'
+      warehouse: 'compute_wh'
+      database: 'analytics'
+      schema: 'public'
+      account: ''
+      user: ''
